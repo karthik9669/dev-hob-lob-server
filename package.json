@@ -1,8 +1,11 @@
 {
-  "name": "DevHobnob",
+  "name": "devhobnob",
   "version": "1.0.0",
   "description": "Social Media for Developers",
   "main": "server.js",
+  "engines": {
+    "node": "17.4.0"
+  },
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
